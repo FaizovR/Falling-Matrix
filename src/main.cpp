@@ -10,6 +10,7 @@ void	init_color_pairs() {
 	init_pair(5, COLOR_BLUE, COLOR_BLUE);
 	init_pair(6, COLOR_MAGENTA, COLOR_MAGENTA);
 	init_pair(7, COLOR_CYAN, COLOR_CYAN);
+	init_pair(9,COLOR_GREEN, COLOR_BLACK);
 }
 
 void 	draw(class Line *line, class Game *game, WINDOW *win){
@@ -51,7 +52,8 @@ Game *init() {
 
 	mvprintw(7, 0, "Choose a color mode");
 	mvprintw(8, 0, ">");
-	//
+	scanw("%d", &temp);
+	game->setColorMod(temp);
 	//
 	noecho();
 	cbreak();
@@ -76,7 +78,7 @@ int		engineGame(Game *game) {
 	halfdelay(5);
 	while (ch != 'q')
 	{
-		while ((ch = getch()) && ch == ERR)
+		while (1)
 		{
 			if ((time / game->getNewLineFreq() > 0 || time % game->getNewLineFreq() == 0))
 			{
@@ -93,7 +95,7 @@ int		engineGame(Game *game) {
 			time += game->getRenderFreq();
 			game->shiftLines();
 
-			game->deleteLinesOverBox();
+//			game->deleteLinesOverBox();
 		}
 	}
 	return (0);

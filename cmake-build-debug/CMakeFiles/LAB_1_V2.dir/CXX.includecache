@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Exception.h
+/home/rustam/CLionProjects/L1_1/includes/Exception.h
 string
 -
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Game.h
+/home/rustam/CLionProjects/L1_1/includes/Game.h
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Lab_1.h
+/home/rustam/CLionProjects/L1_1/includes/Lab_1.h
 iostream
 -
 ncurses.h
@@ -28,21 +28,41 @@ stdio.h
 exception
 -
 Point.h
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Point.h
+/home/rustam/CLionProjects/L1_1/includes/Point.h
 Line.h
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Line.h
+/home/rustam/CLionProjects/L1_1/includes/Line.h
 Game.h
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Game.h
+/home/rustam/CLionProjects/L1_1/includes/Game.h
 Exception.h
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Exception.h
+/home/rustam/CLionProjects/L1_1/includes/Exception.h
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Line.h
+/home/rustam/CLionProjects/L1_1/includes/Line.h
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Point.h
+/home/rustam/CLionProjects/L1_1/includes/Point.h
 
-/Users/hbarrett/CLionProjects/LAB_1_V2/src/main.cpp
+/home/rustam/CLionProjects/L1_1/src/Game.cpp
 ../includes/Lab_1.h
-/Users/hbarrett/CLionProjects/LAB_1_V2/includes/Lab_1.h
+/home/rustam/CLionProjects/L1_1/includes/Lab_1.h
+../includes/Game.h
+/home/rustam/CLionProjects/L1_1/includes/Game.h
+
+/home/rustam/CLionProjects/L1_1/src/Line.cpp
+../includes/Lab_1.h
+/home/rustam/CLionProjects/L1_1/includes/Lab_1.h
+../includes/Line.h
+/home/rustam/CLionProjects/L1_1/includes/Line.h
+../includes/Point.h
+/home/rustam/CLionProjects/L1_1/includes/Point.h
+
+/home/rustam/CLionProjects/L1_1/src/Point.cpp
+../includes/Lab_1.h
+/home/rustam/CLionProjects/L1_1/includes/Lab_1.h
+../includes/Point.h
+/home/rustam/CLionProjects/L1_1/includes/Point.h
+
+/home/rustam/CLionProjects/L1_1/src/main.cpp
+../includes/Lab_1.h
+/home/rustam/CLionProjects/L1_1/includes/Lab_1.h
 thread
 -
 

@@ -9,10 +9,15 @@ private:
 	int		renderFreq;
 	int		newLineFreq;
 	int		lineLength;
+	int		colorMod;
 	std::vector<Line> linesList;
 	WINDOW	*window;
 public:
 	virtual ~Game();
+
+	void setColorMod(int colorMod);
+
+	int getColorMod() const;
 
 	void	shiftLines();
 

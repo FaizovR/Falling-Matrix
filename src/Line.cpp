@@ -6,12 +6,15 @@
 #include "../includes/Line.h"
 #include "../includes/Point.h"
 
-Line::Line(int length, int offsetX) {
+Line::Line(int length, int offsetX, int colorMod) {
 	this->length = length;
 	this->offsetX = offsetX;
 	this->statusDeath = false;
 	for (int i = 0; i < length; i++) {
-		arrayPoints.push_back(Point(offsetX, i - length + 1, 1 + rand() % 7));
+		if (colorMod == 1)
+			arrayPoints.push_back(Point(offsetX, i - length + 1, 1 + rand() % 7));
+		else if (colorMod == 2)
+			arrayPoints.push_back(Point(offsetX, i - length + 1, 9));
 	}
 	arrayPoints.push_back(Point(offsetX, -length, 8));
 }

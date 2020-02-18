@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hbarrett/CLionProjects/LAB_1_V2/src/Exception.cpp" "/Users/hbarrett/CLionProjects/LAB_1_V2/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
-  "/Users/hbarrett/CLionProjects/LAB_1_V2/src/Game.cpp" "/Users/hbarrett/CLionProjects/LAB_1_V2/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
-  "/Users/hbarrett/CLionProjects/LAB_1_V2/src/Line.cpp" "/Users/hbarrett/CLionProjects/LAB_1_V2/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
-  "/Users/hbarrett/CLionProjects/LAB_1_V2/src/Point.cpp" "/Users/hbarrett/CLionProjects/LAB_1_V2/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
-  "/Users/hbarrett/CLionProjects/LAB_1_V2/src/main.cpp" "/Users/hbarrett/CLionProjects/LAB_1_V2/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
+  "/home/rustam/CLionProjects/L1_1/src/Exception.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
+  "/home/rustam/CLionProjects/L1_1/src/Game.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
+  "/home/rustam/CLionProjects/L1_1/src/Line.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
+  "/home/rustam/CLionProjects/L1_1/src/Point.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
+  "/home/rustam/CLionProjects/L1_1/src/main.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

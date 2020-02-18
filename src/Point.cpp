@@ -7,7 +7,7 @@
 
 
 Point::Point(int posX, int posY, int color) {
-	this->ch = 'X';
+	this->ch = 33 + random() % 93;
 	this->posX = posX;
 	this->posY = posY;
 	this->color = color;

@@ -54,10 +54,10 @@ bool Game::isLineHere(int posX) {
 void Game::addNewLine() {
  	int PosX = 1 + rand() % boxWidth;
  	if (linesList.empty()) {
-		linesList.push_back(Line(lineLength, PosX));
+		linesList.push_back(Line(lineLength, PosX, this->colorMod));
 	}
  	else if (!isLineHere(PosX))
- 		linesList.push_back(Line(lineLength, PosX));
+ 		linesList.push_back(Line(lineLength, PosX, this->colorMod));
 }
 
 void Game::renderGame() {
@@ -87,5 +87,10 @@ Game::~Game() {
 	linesList.clear();
 }
 
+int Game::getColorMod() const {
+	return colorMod;
+}
 
-
+void Game::setColorMod(int colorMod) {
+	Game::colorMod = colorMod;
+}

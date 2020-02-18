@@ -12,7 +12,7 @@ private:
 
 public:
 
-	Line(int length, int offsetX);
+	Line(int length, int offsetX, int colorMod);
 
 	void	drawLine(int boxHeight, WINDOW *win);
 
