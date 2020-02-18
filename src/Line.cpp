@@ -40,10 +40,7 @@ int Line::getStatusDeath() const {
 }
 
 void	Line::changeStatusLine(int boxHeight) {
-	if (arrayPoints.at(arrayPoints.size() - 1).getPosY() > boxHeight)
-		this->statusDeath = true;
-	else
-		this->statusDeath = false;
+	this->statusDeath = boxHeight < arrayPoints.at(arrayPoints.size() - 1).getPosY();
 }
 
 

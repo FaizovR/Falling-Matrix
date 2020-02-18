@@ -73,8 +73,7 @@ int		engineGame(Game *game) {
 
 	box(game->getWindow(), 0, 0);
 	int i = 0;
-//					game->addNewLine();
-//	game->addNewLine();
+
 	halfdelay(5);
 	while (ch != 'q')
 	{
@@ -95,7 +94,7 @@ int		engineGame(Game *game) {
 			time += game->getRenderFreq();
 			game->shiftLines();
 
-//			game->deleteLinesOverBox();
+			game->deleteLinesOverBox();
 		}
 	}
 	return (0);

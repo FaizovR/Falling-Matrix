@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/rustam/CLionProjects/L1_1/cmake-build-debug"/>
+				<Option working_dir="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/rustam/CLionProjects/L1_1/cmake-build-debug"/>
+				<Option working_dir="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LAB_1_V2">
-				<Option output="/home/rustam/CLionProjects/L1_1/cmake-build-debug/LAB_1_V2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/rustam/CLionProjects/L1_1/cmake-build-debug"/>
+				<Option output="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/LAB_1_V2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB_1_V2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB_1_V2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LAB_1_V2/fast">
-				<Option output="/home/rustam/CLionProjects/L1_1/cmake-build-debug/LAB_1_V2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/rustam/CLionProjects/L1_1/cmake-build-debug"/>
+				<Option output="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/LAB_1_V2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,54 +67,54 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB_1_V2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB_1_V2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/rustam/CLionProjects/L1_1/cmake-build-debug"/>
+				<Option working_dir="/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/includes/Exception.h">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/includes/Exception.h">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/includes/Game.h">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/includes/Game.h">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/includes/Lab_1.h">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/includes/Lab_1.h">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/includes/Line.h">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/includes/Line.h">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/includes/Point.h">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/includes/Point.h">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/src/Exception.cpp">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/src/Exception.cpp">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/src/Game.cpp">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/src/Game.cpp">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/src/Line.cpp">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/src/Line.cpp">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/src/Point.cpp">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/src/Point.cpp">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/src/main.cpp">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/src/main.cpp">
 			<Option target="LAB_1_V2"/>
 		</Unit>
-		<Unit filename="/home/rustam/CLionProjects/L1_1/CMakeLists.txt">
+		<Unit filename="/home/rustam/CLionProjects/MAI/L1_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

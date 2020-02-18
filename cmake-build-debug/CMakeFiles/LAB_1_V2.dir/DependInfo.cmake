@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rustam/CLionProjects/L1_1/src/Exception.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
-  "/home/rustam/CLionProjects/L1_1/src/Game.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
-  "/home/rustam/CLionProjects/L1_1/src/Line.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
-  "/home/rustam/CLionProjects/L1_1/src/Point.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
-  "/home/rustam/CLionProjects/L1_1/src/main.cpp" "/home/rustam/CLionProjects/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
+  "/home/rustam/CLionProjects/MAI/L1_1/src/Exception.cpp" "/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
+  "/home/rustam/CLionProjects/MAI/L1_1/src/Game.cpp" "/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
+  "/home/rustam/CLionProjects/MAI/L1_1/src/Line.cpp" "/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
+  "/home/rustam/CLionProjects/MAI/L1_1/src/Point.cpp" "/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
+  "/home/rustam/CLionProjects/MAI/L1_1/src/main.cpp" "/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
