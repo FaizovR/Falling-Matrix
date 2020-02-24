@@ -12,7 +12,7 @@ OBJS = $(addprefix $(OBJECTS_DIR)/,$(SOURCES:.cpp=.o))
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(OBJS) -I $(INCLUDES_DIR) -lncurses
+	$(CC) -o $(NAME) $(OBJS) -I $(INCLUDES_DIR) -lncurses
 
 $(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.cpp
 	mkdir -p $(OBJECTS_DIR)
@@ -21,11 +21,9 @@ $(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.cpp
 clean:
 	rm -rf $(OBJECTS_DIR)
 	rm -f $(OBJS)
-	make clean -C $(LIBFT)
 
 fclean: clean
 	rm -f $(NAME)
-	make fclean -C $(LIBFT)
 
 re: fclean clean
 
