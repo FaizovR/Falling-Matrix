@@ -1,0 +1,9 @@
+# CMake
+cmake-*/*
+cmake-build-debug/CMakeFiles/HBGJ_ft_printf.dir/TEST/main_test.c.o
+
+CMakeLists.txt
+
+.DS_Store
+
+.ides/*
