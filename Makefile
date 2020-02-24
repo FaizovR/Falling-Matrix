@@ -2,7 +2,7 @@ NAME = Lab_1
 OBJECTS_DIR = objects
 INCLUDES_DIR = includes
 SOURCES_DIR = src
-FLAGS = -lncurses
+FLAGS = -Wall -Wextra -Werror
 CC = g++
 SOURCES = Exception.cpp Game.cpp Line.cpp main.cpp Point.cpp GameEngine.cpp UserInputUtilities.cpp
 
@@ -25,6 +25,6 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
-re: fclean clean
+re: fclean clean all
 
 .PHONY: all clean fclean re

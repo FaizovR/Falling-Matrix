@@ -44,7 +44,7 @@ WINDOW *Game::getWindow() const {
 }
 
 bool Game::isLineHere(int posX) {
-	for (int i = 0; i < linesList.size(); ++i) {
+	for (size_t i = 0; i < linesList.size(); ++i) {
 		if (linesList.at(i).getLastCoord() == posX && linesList.at(i).getLastCoordY() <=  0)
 			return true;
 	}
@@ -61,20 +61,20 @@ void Game::addNewLine() {
 }
 
 void Game::renderGame() {
-	for (int i = 0; i < linesList.size(); i++) {
+	for (size_t i = 0; i < linesList.size(); i++) {
 		linesList.at(i).drawLine(boxHeight, window);
 	}
 }
 
 void Game::shiftLines() {
-	for (int i = 0; i < linesList.size(); i++) {
+	for (size_t i = 0; i < linesList.size(); i++) {
 		linesList.at(i).shiftDownLine();
 		linesList.at(i).changeStatusLine(this->boxHeight);
 	}
 }
 
 void Game::deleteLinesOverBox() {
-	for (int i = 0; i < linesList.size(); i++) {
+	for (size_t i = 0; i < linesList.size(); i++) {
 		if (linesList.at(i).getStatusDeath())
 		{
 			linesList.erase(linesList.begin() + i);

@@ -98,9 +98,7 @@ void		engineGame(Game *game)
 	unsigned long time = 0;
 
 	box(game->getWindow(), 0, 0);
-	int i = 0;
-
-	halfdelay(5);
+	halfdelay(1);
 	while (ch != 'q')
 	{
 		while ((ch = getch()) && ch == ERR)

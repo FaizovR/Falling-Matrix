@@ -7,9 +7,9 @@ int		UserInput()
 {
 	int temp;
 	printw("\n>");
-	if (scanw("%d", &temp) == 0)
+	if (scanw((char *)"%d", &temp) == 0)
 	{
-		throw UserInputException("Wrong input! Try again ");
+		throw UserInputException((char *)"Wrong input! Try again ");
 	}
 	return (temp);
 }
@@ -18,19 +18,19 @@ void	UserInputRenderFreq(Game *game)
 {
 	int temp;
 
-	printw("Write a render Frequency");
+	printw((char *)"Write a render Frequency");
 	while (1)
 	{
 		try
 		{
 			temp = UserInput();
 			if ( temp < 1 || temp > 30)
-				throw UserInputException("Render frequency may be from 1 to 30! Try again ");
+				throw UserInputException((char *)"Render frequency may be from 1 to 30! Try again ");
 			break;
 		}
 		catch (UserInputException& inputExc)
 		{
-			printw("%s",inputExc.getErrorMessage());
+			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
 	temp *= 100000;
@@ -40,19 +40,19 @@ void	UserInputRenderFreq(Game *game)
 void	UserInputNewLineFrequency(Game *game)
 {
 	int temp;
-	printw("Write a new line Frequency");
+	printw((char *)"Write a new line Frequency");
 	while (1)
 	{
 		try
 		{
 			temp = UserInput();
 			if ( temp < 1 || temp > 30)
-				throw UserInputException("New line frequency may be from 1 to 30! Try again ");
+				throw UserInputException((char *)"New line frequency may be from 1 to 30! Try again ");
 			break;
 		}
 		catch (UserInputException& inputExc)
 		{
-			printw("%s",inputExc.getErrorMessage());
+			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
 	temp *= 100000;
@@ -63,19 +63,19 @@ void	UserInputLineLength(Game *game)
 {
 	int temp;
 
-	printw("Write a line Length");
+	printw((char *)"Write a line Length");
 	while (1)
 	{
 		try
 		{
 			temp = UserInput();
 			if ( temp < 1 || temp > 30)
-				throw UserInputException("Line length may be from 1 to 30! Try again ");
+				throw UserInputException((char *)"Line length may be from 1 to 30! Try again ");
 			break;
 		}
 		catch (UserInputException& inputExc)
 		{
-			printw("%s",inputExc.getErrorMessage());
+			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
 	temp *= 100000;
@@ -87,19 +87,19 @@ void	UserInputColorMod(Game *game)
 {
 	int temp;
 
-	printw("Choose a color mode: \n 1 = color mod \n 2 = green mod");
+	printw((char *)"Choose a color mode: \n 1 = color mod \n 2 = green mod");
 	while (1)
 	{
 		try
 		{
 			temp = UserInput();
 			if (temp != 1 && temp != 2)
-				throw UserInputException("Wrong color mod! Try again ");
+				throw UserInputException((char *)"Wrong color mod! Try again ");
 			break;
 		}
 		catch (UserInputException& inputExc)
 		{
-			printw("%s",inputExc.getErrorMessage());
+			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
 	game->setColorMod(temp);
