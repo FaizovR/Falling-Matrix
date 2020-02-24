@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rustam/CLionProjects/MAI/L1_1
+CMAKE_SOURCE_DIR = /Users/hbarrett/CLionProjects/L1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hbarrett/CLionProjects/L1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles /Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/GameEngine.o: src/GameEngine.cpp.o
+
+.PHONY : src/GameEngine.o
+
+# target to build an object file
+src/GameEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o
+.PHONY : src/GameEngine.cpp.o
+
+src/GameEngine.i: src/GameEngine.cpp.i
+
+.PHONY : src/GameEngine.i
+
+# target to preprocess a source file
+src/GameEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.i
+.PHONY : src/GameEngine.cpp.i
+
+src/GameEngine.s: src/GameEngine.cpp.s
+
+.PHONY : src/GameEngine.s
+
+# target to generate assembly for a file
+src/GameEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.s
+.PHONY : src/GameEngine.cpp.s
+
 src/Line.o: src/Line.cpp.o
 
 .PHONY : src/Line.o
@@ -231,6 +258,33 @@ src/Point.cpp.s:
 	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/Point.cpp.s
 .PHONY : src/Point.cpp.s
 
+src/UserInputUtilities.o: src/UserInputUtilities.cpp.o
+
+.PHONY : src/UserInputUtilities.o
+
+# target to build an object file
+src/UserInputUtilities.cpp.o:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o
+.PHONY : src/UserInputUtilities.cpp.o
+
+src/UserInputUtilities.i: src/UserInputUtilities.cpp.i
+
+.PHONY : src/UserInputUtilities.i
+
+# target to preprocess a source file
+src/UserInputUtilities.cpp.i:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.i
+.PHONY : src/UserInputUtilities.cpp.i
+
+src/UserInputUtilities.s: src/UserInputUtilities.cpp.s
+
+.PHONY : src/UserInputUtilities.s
+
+# target to generate assembly for a file
+src/UserInputUtilities.cpp.s:
+	$(MAKE) -f CMakeFiles/LAB_1_V2.dir/build.make CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.s
+.PHONY : src/UserInputUtilities.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -265,20 +319,26 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... LAB_1_V2"
 	@echo "... edit_cache"
+	@echo "... LAB_1_V2"
 	@echo "... src/Exception.o"
 	@echo "... src/Exception.i"
 	@echo "... src/Exception.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/GameEngine.o"
+	@echo "... src/GameEngine.i"
+	@echo "... src/GameEngine.s"
 	@echo "... src/Line.o"
 	@echo "... src/Line.i"
 	@echo "... src/Line.s"
 	@echo "... src/Point.o"
 	@echo "... src/Point.i"
 	@echo "... src/Point.s"
+	@echo "... src/UserInputUtilities.o"
+	@echo "... src/UserInputUtilities.i"
+	@echo "... src/UserInputUtilities.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

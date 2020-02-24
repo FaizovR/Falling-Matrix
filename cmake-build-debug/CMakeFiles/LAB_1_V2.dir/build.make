@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/rustam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rustam/CLionProjects/MAI/L1_1
+CMAKE_SOURCE_DIR = /Users/hbarrett/CLionProjects/L1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hbarrett/CLionProjects/L1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LAB_1_V2.dir/depend.make
@@ -59,68 +59,94 @@ include CMakeFiles/LAB_1_V2.dir/flags.make
 
 CMakeFiles/LAB_1_V2.dir/src/main.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
 CMakeFiles/LAB_1_V2.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/main.cpp.o -c /home/rustam/CLionProjects/MAI/L1_1/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/main.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/main.cpp
 
 CMakeFiles/LAB_1_V2.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rustam/CLionProjects/MAI/L1_1/src/main.cpp > CMakeFiles/LAB_1_V2.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/main.cpp > CMakeFiles/LAB_1_V2.dir/src/main.cpp.i
 
 CMakeFiles/LAB_1_V2.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rustam/CLionProjects/MAI/L1_1/src/main.cpp -o CMakeFiles/LAB_1_V2.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/main.cpp -o CMakeFiles/LAB_1_V2.dir/src/main.cpp.s
 
 CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
 CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o: ../src/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o -c /home/rustam/CLionProjects/MAI/L1_1/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/Game.cpp
 
 CMakeFiles/LAB_1_V2.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rustam/CLionProjects/MAI/L1_1/src/Game.cpp > CMakeFiles/LAB_1_V2.dir/src/Game.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/Game.cpp > CMakeFiles/LAB_1_V2.dir/src/Game.cpp.i
 
 CMakeFiles/LAB_1_V2.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rustam/CLionProjects/MAI/L1_1/src/Game.cpp -o CMakeFiles/LAB_1_V2.dir/src/Game.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/Game.cpp -o CMakeFiles/LAB_1_V2.dir/src/Game.cpp.s
 
 CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
 CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o: ../src/Line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o -c /home/rustam/CLionProjects/MAI/L1_1/src/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/Line.cpp
 
 CMakeFiles/LAB_1_V2.dir/src/Line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/Line.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rustam/CLionProjects/MAI/L1_1/src/Line.cpp > CMakeFiles/LAB_1_V2.dir/src/Line.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/Line.cpp > CMakeFiles/LAB_1_V2.dir/src/Line.cpp.i
 
 CMakeFiles/LAB_1_V2.dir/src/Line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/Line.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rustam/CLionProjects/MAI/L1_1/src/Line.cpp -o CMakeFiles/LAB_1_V2.dir/src/Line.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/Line.cpp -o CMakeFiles/LAB_1_V2.dir/src/Line.cpp.s
 
 CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
 CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o: ../src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o -c /home/rustam/CLionProjects/MAI/L1_1/src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/Point.cpp
 
 CMakeFiles/LAB_1_V2.dir/src/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/Point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rustam/CLionProjects/MAI/L1_1/src/Point.cpp > CMakeFiles/LAB_1_V2.dir/src/Point.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/Point.cpp > CMakeFiles/LAB_1_V2.dir/src/Point.cpp.i
 
 CMakeFiles/LAB_1_V2.dir/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/Point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rustam/CLionProjects/MAI/L1_1/src/Point.cpp -o CMakeFiles/LAB_1_V2.dir/src/Point.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/Point.cpp -o CMakeFiles/LAB_1_V2.dir/src/Point.cpp.s
 
 CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
 CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o: ../src/Exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o -c /home/rustam/CLionProjects/MAI/L1_1/src/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/Exception.cpp
 
 CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rustam/CLionProjects/MAI/L1_1/src/Exception.cpp > CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/Exception.cpp > CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.i
 
 CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rustam/CLionProjects/MAI/L1_1/src/Exception.cpp -o CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/Exception.cpp -o CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.s
+
+CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
+CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o: ../src/GameEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/GameEngine.cpp
+
+CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/GameEngine.cpp > CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.i
+
+CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/GameEngine.cpp -o CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.s
+
+CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o: CMakeFiles/LAB_1_V2.dir/flags.make
+CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o: ../src/UserInputUtilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o -c /Users/hbarrett/CLionProjects/L1/src/UserInputUtilities.cpp
+
+CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hbarrett/CLionProjects/L1/src/UserInputUtilities.cpp > CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.i
+
+CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hbarrett/CLionProjects/L1/src/UserInputUtilities.cpp -o CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.s
 
 # Object files for target LAB_1_V2
 LAB_1_V2_OBJECTS = \
@@ -128,7 +154,9 @@ LAB_1_V2_OBJECTS = \
 "CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o" \
 "CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o" \
 "CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o" \
-"CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o"
+"CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o" \
+"CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o" \
+"CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o"
 
 # External object files for target LAB_1_V2
 LAB_1_V2_EXTERNAL_OBJECTS =
@@ -138,9 +166,11 @@ LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/Game.cpp.o
 LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/Line.cpp.o
 LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/Point.cpp.o
 LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/Exception.cpp.o
+LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/GameEngine.cpp.o
+LAB_1_V2: CMakeFiles/LAB_1_V2.dir/src/UserInputUtilities.cpp.o
 LAB_1_V2: CMakeFiles/LAB_1_V2.dir/build.make
 LAB_1_V2: CMakeFiles/LAB_1_V2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LAB_1_V2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable LAB_1_V2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAB_1_V2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +183,6 @@ CMakeFiles/LAB_1_V2.dir/clean:
 .PHONY : CMakeFiles/LAB_1_V2.dir/clean
 
 CMakeFiles/LAB_1_V2.dir/depend:
-	cd /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rustam/CLionProjects/MAI/L1_1 /home/rustam/CLionProjects/MAI/L1_1 /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug /home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/hbarrett/CLionProjects/L1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hbarrett/CLionProjects/L1 /Users/hbarrett/CLionProjects/L1 /Users/hbarrett/CLionProjects/L1/cmake-build-debug /Users/hbarrett/CLionProjects/L1/cmake-build-debug /Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LAB_1_V2.dir/depend
 

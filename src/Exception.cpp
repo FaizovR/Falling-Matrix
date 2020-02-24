@@ -4,10 +4,10 @@
 
 #include "../includes/Exception.h"
 
-Exception::Exception(const std::string errorMessage) {
-	this->error_message = errorMessage;
+Exception::Exception(char *errorMessage) : errorMessage(errorMessage) {}
+
+char *Exception::getErrorMessage() const {
+	return errorMessage;
 }
 
-const std::string &Exception::getErrorMessage() const {
-	return error_message;
-}
+UserInputException::UserInputException(char *errorMessage) : Exception(errorMessage) {}

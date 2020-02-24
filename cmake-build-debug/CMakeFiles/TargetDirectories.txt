@@ -1,3 +1,3 @@
-/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir
-/home/rustam/CLionProjects/MAI/L1_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hbarrett/CLionProjects/L1/cmake-build-debug/CMakeFiles/LAB_1_V2.dir

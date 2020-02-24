@@ -9,12 +9,19 @@
 class Exception : public std::exception
 {
 private:
-	std::string error_message;
+	char * errorMessage;
 public:
-	const std::string &getErrorMessage() const;
+	Exception(char *errorMessage);
 
-	Exception(const std::string errorMessage);
+	char *getErrorMessage() const;
 };
 
+
+
+class UserInputException : public Exception
+{
+public:
+	UserInputException(char *errorMessage);
+};
 
 #endif //LAB_1_V2_EXCEPTION_H

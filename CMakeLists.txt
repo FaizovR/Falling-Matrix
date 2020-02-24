@@ -8,4 +8,4 @@ file(GLOB LAB_1_V2
         src/*.c
         includes/*.h)
 
-add_executable(LAB_1_V2 src/main.cpp includes/Lab_1.h src/Game.cpp includes/Game.h src/Line.cpp includes/Line.h src/Point.cpp includes/Point.h src/Exception.cpp includes/Exception.h)
+add_executable(LAB_1_V2 src/main.cpp includes/Lab_1.h src/Game.cpp includes/Game.h src/Line.cpp includes/Line.h src/Point.cpp includes/Point.h src/Exception.cpp includes/Exception.h src/GameEngine.cpp src/UserInputUtilities.cpp)
