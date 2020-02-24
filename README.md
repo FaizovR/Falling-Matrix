@@ -13,6 +13,6 @@ Executable `Lab_1` will be created. Just call `./Lab_1` and you will find how us
     $ ./Lab_1
 ```
 ## Authors
-This project was made by Faizov Rustam [@Faizovr](me)
+This project was made by Faizov Rustam [@Faizovr](https://github.com/FaizovR)
 
 [me]: https://github.com/FaizovR
