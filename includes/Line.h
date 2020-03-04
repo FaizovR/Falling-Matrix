@@ -18,6 +18,8 @@ public:
 
 	void	shiftDownLine();
 
+	void	shiftUpLine();
+
 	virtual ~Line();
 
 	int 	getStatusDeath() const;

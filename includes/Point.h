@@ -20,6 +20,8 @@ public:
 	void drawPoint(int boxHeight, WINDOW *win);
 
 	void shiftPointDown();
+
+	void shiftPointUp();
 };
 
 #endif //LAB_1_V2_POINT_H

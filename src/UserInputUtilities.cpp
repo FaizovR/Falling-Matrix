@@ -33,7 +33,8 @@ void	UserInputRenderFreq(Game *game)
 			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
-	temp *= 1000000;
+	game->setrenderFreqGovno(temp);
+	temp = 100 / temp;
 	game->setRenderFreq(temp);
 }
 
@@ -55,7 +56,7 @@ void	UserInputNewLineFrequency(Game *game)
 			printw((char *)"%s",inputExc.getErrorMessage());
 		}
 	}
-	temp *= 1000000;
+
 	game->setNewLineFreq(temp);
 }
 

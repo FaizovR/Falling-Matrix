@@ -6,13 +6,13 @@
 void	init_color_pairs()
 {
 	init_pair(8, COLOR_BLACK, COLOR_BLACK);
-	init_pair(1, COLOR_WHITE, COLOR_WHITE);
-	init_pair(2, COLOR_RED, COLOR_RED);
-	init_pair(3, COLOR_GREEN, COLOR_GREEN);
-	init_pair(4, COLOR_YELLOW, COLOR_YELLOW);
-	init_pair(5, COLOR_BLUE, COLOR_BLUE);
-	init_pair(6, COLOR_MAGENTA, COLOR_MAGENTA);
-	init_pair(7, COLOR_CYAN, COLOR_CYAN);
+	init_pair(1, COLOR_WHITE, COLOR_BLACK);
+	init_pair(2, COLOR_RED, COLOR_BLACK);
+	init_pair(3, COLOR_GREEN, COLOR_BLACK);
+	init_pair(4, COLOR_YELLOW, COLOR_BLACK);
+	init_pair(5, COLOR_BLUE, COLOR_BLACK);
+	init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
+	init_pair(7, COLOR_CYAN, COLOR_BLACK);
 	init_pair(9,COLOR_GREEN, COLOR_BLACK);
 }
 
@@ -90,7 +90,10 @@ Game *init()
 	return (game);
 }
 
-
+void sleep_t(int micsec) {
+	micsec++;
+	usleep(10000 * micsec);
+}
 
 void		engineGame(Game *game)
 {
@@ -99,22 +102,25 @@ void		engineGame(Game *game)
 
 	box(game->getWindow(), 0, 0);
 	halfdelay(1);
+	int counter;
 	while (ch != 'q')
 	{
-		while ((ch = getch()) && ch == ERR)
+		while (1)
 		{
-			if ((time / game->getNewLineFreq() > 0 || time % game->getNewLineFreq() == 0))
+			counter = game->getNewLineFreq();
+			if (time >= 100)
 			{
-				while (time / game->getNewLineFreq() > 0)
+				while (counter > 0)
 				{
 					game->addNewLine();
-					time -= game->getNewLineFreq();
+					counter--;
 				}
 				time = 0;
 			}
 			game->renderGame();
 			wrefresh(game->getWindow());
-			usleep(game->getRenderFreq());
+			sleep_t(game->getRenderFreq());
+
 			time += game->getRenderFreq();
 			game->shiftLines();
 			game->deleteLinesOverBox();

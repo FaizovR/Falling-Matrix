@@ -9,6 +9,7 @@ private:
 	int		renderFreq;
 	int		newLineFreq;
 	int		lineLength;
+	int		renderFreqGovno;
 	int		colorMod;
 	std::vector<Line> linesList;
 	WINDOW	*window;
@@ -18,6 +19,8 @@ public:
 	void setColorMod(int colorMod);
 
 	int getColorMod() const;
+
+	void	setrenderFreqGovno(int renderFreqGovno);
 
 	void	shiftLines();
 

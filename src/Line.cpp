@@ -12,11 +12,11 @@ Line::Line(int length, int offsetX, int colorMod) {
 	this->statusDeath = false;
 	for (int i = 0; i < length; i++) {
 		if (colorMod == 1)
-			arrayPoints.push_back(Point(offsetX, i - length + 1, 1 + rand() % 7));
+			arrayPoints.push_back(Point(offsetX, 0 - i, 1 + rand() % 7));
 		else if (colorMod == 2)
-			arrayPoints.push_back(Point(offsetX, i - length + 1, 9));
+			arrayPoints.push_back(Point(offsetX, 0 - i, 9));
 	}
-	arrayPoints.push_back(Point(offsetX, -length, 8));
+	arrayPoints.push_back(Point(offsetX, 0 - length, 8));
 }
 
 void Line::drawLine(int boxHeight, WINDOW *win) {
@@ -28,6 +28,12 @@ void Line::drawLine(int boxHeight, WINDOW *win) {
 void Line::shiftDownLine() {
 	for (int i = 0; i < length + 1; i++) {
 		arrayPoints.at(i).shiftPointDown();
+	}
+}
+
+void Line::shiftUpLine() {
+	for (int i = 0; i < length + 1; i++) {
+		arrayPoints.at(i).shiftPointUp();
 	}
 }
 

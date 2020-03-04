@@ -51,6 +51,10 @@ bool Game::isLineHere(int posX) {
 	return false;
 }
 
+void	Game::setrenderFreqGovno(int renderFreqGovno) {
+	this->renderFreqGovno = renderFreqGovno;
+}
+
 void Game::addNewLine() {
  	int PosX = 1 + rand() % boxWidth;
  	if (linesList.empty()) {
@@ -58,6 +62,12 @@ void Game::addNewLine() {
 	}
  	else if (!isLineHere(PosX))
  		linesList.push_back(Line(lineLength, PosX, this->colorMod));
+	int temp = 1 + rand() % renderFreqGovno;
+	while (temp > 0)
+	{
+		linesList.back().shiftUpLine();
+		temp--;
+	}
 }
 
 void Game::renderGame() {

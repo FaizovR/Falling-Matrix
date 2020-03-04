@@ -23,6 +23,10 @@ void Point::shiftPointDown() {
 	this->posY++;
 }
 
+void Point::shiftPointUp() {
+	this->posY--;
+}
+
 int Point::getPosY() const {
 	return posY;
 }
